@@ -24,8 +24,13 @@ class Teacher extends Person {
 		console.log(super.get_name()+" is teaching")
 	}
 }
-
 // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;
 window.Teacher = Teacher;
+console.log(Person.name);
+console.log(Person.age);
+
+
+
+
