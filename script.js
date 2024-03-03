@@ -28,8 +28,8 @@ class Teacher extends Person {
 window.Person = Person;
 window.Student = Student;
 window.Teacher = Teacher;
-console.log(Person.name);
-console.log(Person.age);
+console.log(Person.name='John');
+console.log(Person.age='30');
 
 
 
